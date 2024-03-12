@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="timetable" type="id" />
+    <item name="subjects" type="id" />
+    <item name="faculty" type="id"/>
+    <item name="foodTracker" type="id"/>
+    <item name="placeholder" type="id" />
+</resources>

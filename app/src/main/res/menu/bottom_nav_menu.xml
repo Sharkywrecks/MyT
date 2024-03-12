@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/timetable"
+        android:icon="@drawable/ic_timetable"
+        android:title="Timetable"/>
+    <item
+        android:id="@id/subjects"
+        android:icon="@drawable/ic_subject"
+        android:title="Subjects"/>
+    <item
+        android:id="@id/placeholder"
+        android:title=""/>
+    <item
+        android:id="@id/faculty"
+        android:icon="@drawable/ic_faculty"
+        android:title="Faculty"/>
+    <item
+        android:id="@id/foodTracker"
+        android:icon="@drawable/ic_foodtracker"
+        android:title="Food"/>
+</menu>

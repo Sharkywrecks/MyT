@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2525" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/bg_round.xml" value="0.251" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/circle_shadow.xml" value="0.1" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/custom_button.xml" value="0.251" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/ic_add.xml" value="0.251" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/ic_image.xml" value="0.251" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/ic_subject.xml" value="0.2525" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/ic_timetable.xml" value="0.2525" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/drawable/transparent_background.xml" value="0.2525" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_add_day_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_add_faculty.xml" value="0.264" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_add_subject_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_code_scanner.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_cropper.xml" value="0.1" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_day_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_faculty.xml" value="0.2" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_subject.xml" value="0.264" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_subject_details.xml" value="0.2" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_track_food.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_week.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_week_single_item.xml" value="0.1" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/day_detail_single_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/faculty_single_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/food_tracker_single_item.xml" value="0.253125" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/main_activity_single_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/subject_details_single_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/layout/subject_single_item.xml" value="0.253125" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/SharkenTech/AndroidStudioProjects/MyT/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.124" />
+        <entry key="..\:/Users/Sharky/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sharky/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_week.xml" value="0.1" />
+        <entry key="..\:/Users/Sharky/AndroidStudioProjects/MyT/app/src/main/res/layout/activity_week_single_item.xml" value="0.11197916666666667" />
+        <entry key="..\:/Users/Sharky/AndroidStudioProjects/MyT/app/src/main/res/layout/main_activity_single_item.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyT</string>
+    <string name="FOOD_EXPIRY_CHANNEL_ID">1</string>
+    <string name="CHANNEL_FOOD_EXPIRY">Food Expiry</string>
+    <string name="CHANNEL_DESCRIPTION">Reminder that food is about to expire</string>
+    <string-array name="Main">
+        <item>TimeTable</item>
+        <item>Subjects</item>
+        <item>Faculty</item>
+        <item>Food Expiring in...</item>
+    </string-array>
+    <string-array name="Description">
+        <item>Keep track of your day to day timetable</item>
+        <item>Put all your course details in one place</item>
+        <item>Do you know your faculty?</item>
+        <item>When does it expire again?</item>
+        <item>Some fun wouldn\'t hurt</item>
+    </string-array>
+    <string-array name="Week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

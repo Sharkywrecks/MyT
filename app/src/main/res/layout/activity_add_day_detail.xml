@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add.AddDayDetailActivity"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background = "@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id="@+id/ToolbarDayDetail">
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Subject"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"/>
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:neumorph_shapeType="flat">
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLines="2"
+        android:minHeight="48dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:hint="Enter subject name"
+        android:background="@android:color/transparent"
+        android:paddingLeft="20dp"/>
+    </soup.neumorphism.NeumorphCardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:text="Start Time:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_toEndOf="@+id/startTime"
+            app:neumorph_shapeType="flat">
+
+            <EditText
+                android:id="@+id/startTimeEditText"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:hint="e.g 12.00"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:background="@android:color/transparent"
+                android:paddingLeft="20dp"/>
+        </soup.neumorphism.NeumorphCardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:text="End Time:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_toEndOf="@+id/endTime"
+            android:layout_marginLeft="10dp"
+            app:neumorph_shapeType="flat">
+
+            <EditText
+                android:id="@+id/endTimeEditText"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="e.g 1.00"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:paddingLeft="20dp" />
+        </soup.neumorphism.NeumorphCardView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Location"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:neumorph_shapeType="flat">
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter teaching location"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="HardcodedText"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="20dp"
+        android:background="@android:color/transparent"/>
+    </soup.neumorphism.NeumorphCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Faculty"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:neumorph_shapeType="flat">
+    <EditText
+        android:id="@+id/facultyEditText"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter subject teacher name"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="HardcodedText"
+        android:paddingLeft="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@android:color/transparent"/>
+    </soup.neumorphism.NeumorphCardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/deleteDetailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="deleteDetail"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/saveDetailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="saveDetail"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+</LinearLayout>
